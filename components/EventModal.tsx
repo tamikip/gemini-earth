@@ -70,7 +70,7 @@ const EventModal: React.FC<EventModalProps> = ({ event, onResolve, loading, lang
                 </div>
                 <p className="text-slate-300 text-sm font-rajdhani">{opt.description}</p>
                 <div className="mt-2 text-xs text-emerald-400 font-mono border-t border-slate-700 pt-2 w-full">
-                  >> {t.effect} {opt.effectDescription}
+                  &gt;&gt; {t.effect} {opt.effectDescription}
                 </div>
               </button>
             ))}
